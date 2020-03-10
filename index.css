@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+ul li {
+  list-style: none;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.left {
+  width: 60px;
+  height: 60px;
+  float: left;
+}
+
+
+.left img {
+  width: 100%;
+  height: 100%;
+}
+
+.writer {
+  display: inline;
+}
+
+.user {
+  float: left;
+}
+
+.content {
+  display: inline-block;
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.right {
+  width: 550px;
+  margin-left: 70px;
+}
+
+.praise {
+  padding-left: 15px;
+  background: url(image/zan.png) no-repeat;
+  float: right;
+}
+
+.praise-total {
+  background: url(image/zan.png) no-repeat 5px 5px rgb(247, 247, 247);
+  margin: 5px 0;
+  padding: 5px 5px 5px 22px;
+}
+
+.main {
+  margin: 20px;
+  padding: 20px;
+  border-top: 1px solid rgb(235, 235, 235);
+}
+
+.write-comment {
+  width: 548px;
+  height: 25px;
+  resize: none;
+}
+
+.write-comment::-webkit-input-placeholder {
+  line-height: 25px;
+}
+
+.btn {
+  float: right;
+  background: #1296db;
+  border: none;
+  color: #fff;
+  width: 50px;
+  height: 25px;
+  font-size: 14px;
+  display: none;
+}
+
+.avator {
+  width: 40px;
+  height: 40px;
+}
+
+#conment img {
+  margin: 5px;
+  vertical-align: middle;
+}
+
+.conment-right {
+  height: 20px;
+  margin-top: 15px;
+  float: right;
+  vertical-align: middle;
+}
+
+.on {
+  display: inline-block;
+}
+
+.length {
+  font-size: 10px;
+  color: #999;
+  float: right;
+  margin-top: 7px;
+  margin-right: 5px;
+  display: none;
+}
+
+.btn-off {
+  border: 1px solid #ccc;
+  color: #ccc;
+  background: #F7F7F7;
+}
+
+.comment {
+  margin: 10px 0;
+  padding: 5px 0;
+  border-top: 1px solid rgb(235, 235, 235);
+}
+
+.my-avator {
+  width: 40px;
+  height: 40px;
+  float: left;
+  padding: 0 10px;
+}
+
+.comment-content {
+  width: 480px;
+  float: left;
+}
+
+.comment-content .comment-time {
+  margin-top: 5px;
+}
+
+.comment-content .comment-praise {
+  padding-left: 15px;
+  margin-left: 270px;
+  background: url(image/zan.png) no-repeat;
+
+}
+
+.comment-content .comment-del {
+  margin-left: 10px;
+  display: none;
+}
+
+.comment:hover .comment-del {
+  display: inline;
+}
+
+.time {
+  font-size: 12px;
+  color: #ccc;
+}
+.reply {
+  margin-left: 10px;
+}
+.main {
+  position: relative;
+}
+.del-all {
+  background: #ccc;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+  cursor: pointer;
+}
+.main:hover .del-all {
+  display: block;
+}
